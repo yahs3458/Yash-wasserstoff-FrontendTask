@@ -1,4 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🎤 Astrix Events UI Demo
+
+A visually rich, scroll-driven event showcase UI built using **Next.js**, **Tailwind CSS**, and **React** — designed to present music and event collections with modern animations and layouts.
+
+---
+
+## 🛠️ Tech Stack & Libraries Used
+
+- **Next.js** – React-based framework for SSR & SSG
+- **React** – Functional components & state management
+- **Tailwind CSS** – Utility-first styling
+- **Framer Motion** *(optional)* – For animations (if added)
+- **Vercel** – Hosting & CI/CD platform
+
+---
+
+## 🚀 Steps to Run / Build the Project
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/astrix-events-ui.git
+   cd astrix-events-ui
+   Then run npm install : This is done to Install dependencies
+
+
 
 ## Getting Started
 
@@ -16,25 +40,11 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+🧠 My Approach to the Task
+This project was built as a Figma-to-code implementation challenge. I started by breaking down the design into reusable components such as layout containers, scrollable card sections, toggles for "Events" and "Collections", and static/dynamic content blocks. Using Next.js, I implemented a layout structure that separates components cleanly and enables fast, scalable development.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Tailwind CSS was instrumental in achieving precision-aligned design without writing custom stylesheets. I used React's useState hook for state-based toggling between the views. The scroll animation in the CardScroller was achieved using native CSS animation combined with duplicated content for an infinite loop feel. The focus throughout was on maintaining responsiveness, performance, and fidelity to the original Figma layout.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Link : https://yash-wasserstoff-frontend-task.vercel.app/
